@@ -4,5 +4,8 @@ tagarno_microscope:
 clean:
 	rm -f tagarno_microscope
 
+install:
+	cp tagarno_microscope /usr/local/bin/
+
 all: tagarno_microscope
 
